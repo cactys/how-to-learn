@@ -27,7 +27,6 @@
 }
 
 .logo_place_header {
-	background-image: url("../images/logo_place_header.svg");
 	position: absolute;
 	top: 30px;
 	left: 64px;
@@ -35,10 +34,11 @@
 
 .header__title {
 	font-size: 102px;
-	font-weight: 600;
+	font-weight: bold;
 	line-height: 96px;
 	position: absolute;
 	left: 64px;
+	z-index: 2;
 }
 
 .header__subtitle {
@@ -49,13 +49,12 @@
 	position: absolute;
 	bottom: 30px;
 	left: 64px;
+	z-index: 2;
 }
 
 .header__main-illustration {
 	width: 765px;
 	height: 608px;
-	background-image: url(../images/header-image.png);
-	background-size: 765px;
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
@@ -70,7 +69,10 @@
 	position: absolute;
 	top: 64px;
 	right: 0px;
-	z-index: 0;
+}
+
+.content {
+	border: 1px dotted grey;
 }
 
 /* и элемента с модификатором вида ключ-значение */
