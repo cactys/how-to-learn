@@ -6,7 +6,8 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;border: 1px dotted gray;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000000;
 }
 
 .header {
@@ -74,7 +75,7 @@
 }
 
 .description {
-	padding-top: 100px;
+	padding: 100px 0px 0px 0px;
 	display: flex;
 	justify-content: center;
 }
@@ -112,24 +113,23 @@
 }
 
 .two-columns__paragraph li {
-	margin-bottom: 30px;
+	padding: 0px 0px 30px 0px;
 }
 
 li:last-of-type {
-	margin: 0;
+	padding: 0px;
 }
 
 .digits {
-	/* padding: 100px auto 100px; */
-	padding-top: 100px;
-	padding-bottom: 100px;
-	align-content: center;
+	margin: 0px;
+  padding: 100px 0px 100px 0px;
+
 }
 
 .section-title {
 	width: 60%;
 	text-align: center;
-	margin: 0px 0px 20px;
+	margin: 0px auto 20px;
 	line-height: 1.15;
 	font-size: 60px;
 	font-weight: bold;
@@ -138,23 +138,25 @@ li:last-of-type {
 .section-subtitle {
 	width: 60%;
 	text-align: center;
-	margin: 0px;
+	margin: 0px auto;
 	line-height: 34px;
 	font-size: 24px;
 	font-weight: normal;
 }
 
 .table {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	width: 1100px;
+	margin: 0px auto;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
 }
 
 .table__cell {
 	width: 250px;
-	margin: 0px;
-	padding-top: 60px;
+	margin-right: 0;
+  margin-top: 60px;
 }
 
 .table__heading {
@@ -166,10 +168,70 @@ li:last-of-type {
 
 .table__text {
 	margin: 0px;
-	padding-top: 20px;
+	padding: 20px 0px 0px 0px;
 	line-height: 1.2;
 	font-size: 18px;
 	font-weight: normal;
+}
+
+.feynman {
+	background-color: #f2f2f2;
+	position: relative;
+	height: 890px;
+}
+
+.feynman__title {
+  width: 648px;
+  text-align: center;
+  margin: 0px auto 0px;
+  position: relative;
+  padding: 100px 0px 0px 0px;
+	line-height: 1.15;
+	font-size: 120px;
+	font-weight: bold;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  margin: 0px auto 0px;
+  position: relative;
+  padding: 70px 0px 0px 0px;
+	line-height: 51px;
+	font-size: 36px;
+	font-weight: normal;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+	line-height: 51px;
+	font-size: 36px;
+	font-weight: normal;
+}
+
+.feynman__main-illustration {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+	margin: 0px;
+  padding: 90px 0px 90px 0px;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_them_dark {
+  color: white;
 }
 
 /* и элемента с модификатором вида ключ-значение */
