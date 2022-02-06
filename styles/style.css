@@ -256,9 +256,9 @@ li:last-of-type {
 	background-color: #1f1f1f;
 	padding: 60px 0px 40px;
 	position: relative;
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-between; */
 }
 
 .footer__columns {
