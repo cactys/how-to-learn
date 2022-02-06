@@ -1,3 +1,12 @@
+*, h1 {
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	color: #2f80ed;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -34,7 +43,6 @@
 }
 
 .header__title {
-	margin: 0px;
 	line-height: 96px;
 	font-size: 102px;
 	font-weight: bold;
@@ -44,7 +52,6 @@
 }
 
 .header__subtitle {
-	margin: 0px;
 	line-height: 25px;
 	font-size: 18px;
 	font-weight: normal;
@@ -75,7 +82,7 @@
 }
 
 .description {
-	padding: 100px 0px 0px 0px;
+	padding: 100px 0px 0px;
 	display: flex;
 	justify-content: center;
 }
@@ -87,7 +94,6 @@
 }
 
 .two-columns__brief {
-	margin: 0;
 	color: #2f80ed;
 	width: 175px;
 	line-height: 1.2;
@@ -98,7 +104,6 @@
 .two-columns__paragraph {
 	width: 80%;
 	min-width: 784px;
-	margin: 0;
 	flex-direction: column;
 	list-style: none;
 	line-height: 34px;
@@ -106,24 +111,21 @@
 	font-weight: normal;
 }
 
+li {
+	margin: 0px 0px 30px;
+}
+
+li:last-of-type {
+	margin: 0px;
+}
+
 .two-columns__span-accent {
 	line-height: 34px;
 	font-size: 24px;
 	font-weight: bold;
 }
-
-.two-columns__paragraph li {
-	padding: 0px 0px 30px 0px;
-}
-
-li:last-of-type {
-	padding: 0px;
-}
-
 .digits {
-	margin: 0px;
-  padding: 100px 0px 100px 0px;
-
+  padding: 100px 0px;
 }
 
 .section-title {
@@ -147,7 +149,6 @@ li:last-of-type {
 .table {
 	width: 1100px;
 	margin: 0px auto;
-	padding: 0px;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -155,20 +156,17 @@ li:last-of-type {
 
 .table__cell {
 	width: 250px;
-	margin-right: 0;
-  margin-top: 60px;
+  margin: 60px 0px 0px;
 }
 
 .table__heading {
-	margin: 0px;
 	line-height: 1.15;
 	font-size: 24px;
 	font-weight: bold;
 }
 
 .table__text {
-	margin: 0px;
-	padding: 20px 0px 0px 0px;
+	margin: 20px 0px 0px 0px;
 	line-height: 1.2;
 	font-size: 18px;
 	font-weight: normal;
@@ -178,14 +176,14 @@ li:last-of-type {
 	background-color: #f2f2f2;
 	position: relative;
 	height: 890px;
+	padding: 100px 0px;
 }
 
 .feynman__title {
   width: 648px;
   text-align: center;
-  margin: 0px auto 0px;
   position: relative;
-  padding: 100px 0px 0px 0px;
+  margin: 0px auto;
 	line-height: 1.15;
 	font-size: 120px;
 	font-weight: bold;
@@ -194,9 +192,8 @@ li:last-of-type {
 
 .feynman__subtitle {
   text-align: center;
-  margin: 0px auto 0px;
   position: relative;
-  padding: 70px 0px 0px 0px;
+  margin: 70px auto 0px;
 	line-height: 51px;
 	font-size: 36px;
 	font-weight: normal;
@@ -210,6 +207,7 @@ li:last-of-type {
 	line-height: 51px;
 	font-size: 36px;
 	font-weight: normal;
+	z-index: 1;
 }
 
 .feynman__main-illustration {
@@ -224,8 +222,7 @@ li:last-of-type {
 	position: relative;
 	overflow: hidden;
   background-color: #1f1f1f;
-	margin: 0px;
-  padding: 90px 0px 90px 0px;
+  padding: 90px 0px;
 }
 
 .kaufman__triangle {
@@ -251,16 +248,66 @@ li:last-of-type {
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 80px 0px 0px;
 	z-index: 1;
 }
 
-a:last-of-type {
-	text-decoration: none;
-	color: #2f80ed;
+.footer {
+	background-color: #1f1f1f;
+	padding: 60px 0px 40px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-a::after {
-	content: ' \2192';
+.footer__columns {
+	margin: 0px auto;
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+	min-height: 350px;
+}
+
+.footer__column_content-copyright {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-basis: 711px;
+}
+
+.logo_place_footer {
+	height: 35px;
+}
+
+.footer__author {
+	margin: 18px 0px;
+	color: white;
+	line-height: 25px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.footer__column-heading {
+	margin: 0px 0px 20px;
+	color: white;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footer__column-links {
+	margin: 0px 0px 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__column-link {
+	margin: 0px;
+	color: white;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: normal;
 }
