@@ -12,12 +12,6 @@ a {
 	color: #2f80ed;
 }
 
-ul,
-ol,
-li {
-  list-style: none;
-}
-
 img {
   vertical-align: top;
 }
@@ -141,6 +135,7 @@ body {
 	width: 80%;
 	min-width: 784px;
 	flex-direction: column;
+  list-style: none;
 	line-height: 34px;
 	font-size: 24px;
 	font-weight: normal;
