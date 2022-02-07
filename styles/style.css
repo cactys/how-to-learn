@@ -8,8 +8,8 @@
 }
 
 a {
-	text-decoration: none;
-	color: #2f80ed;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 ul,
@@ -35,11 +35,11 @@ h6 {
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
   height: 100%;
   line-height: 1;
-  font-size: 14px;
-  color: #252b42;
+  font-size: 18px;
+  color: #000000;
 }
 
 .page {
@@ -50,8 +50,7 @@ body {
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #000000;
+  
 }
 
 .header {
@@ -59,160 +58,160 @@ body {
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-	background-color: #f2f2f2;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo {
-	width: 183px;
-	height: 32px;
+  width: 183px;
+  height: 32px;
 }
 
 .logo_place_header {
-	position: absolute;
-	top: 30px;
-	left: 64px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
 }
 
 .header__title {
-	line-height: 96px;
-	width: 730px;
-	font-size: 102px;
-	font-weight: bold;
-	position: absolute;
-	left: 64px;
-	z-index: 2;
+  line-height: 96px;
+  width: 730px;
+  font-size: 102px;
+  font-weight: bold;
+  position: absolute;
+  left: 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
-	line-height: 25px;
-	font-size: 18px;
-	font-weight: normal;
-	width: 388px;
-	position: absolute;
-	bottom: 30px;
-	left: 64px;
-	z-index: 2;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
 }
 
 .header__main-illustration {
-	width: 765px;
-	height: 608px;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	z-index: 1;
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
-	background-color: #2f80ed;
-	position: absolute;
-	top: 64px;
-	right: 0px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0px;
 }
 
 .description {
-	padding: 100px 0px 0px;
-	display: flex;
-	justify-content: center;
+  padding: 100px 0px 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .two-columns {
-	display: flex;
-	justify-content: space-between;
-	width: 80%;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
 }
 
 .two-columns__brief {
-	color: #2f80ed;
-	width: 175px;
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: normal;
+  color: #2f80ed;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .two-columns__paragraph {
-	width: 80%;
-	min-width: 784px;
-	flex-direction: column;
-	list-style: none;
-	line-height: 34px;
-	font-size: 24px;
-	font-weight: normal;
+  width: 80%;
+  min-width: 784px;
+  flex-direction: column;
+  list-style: none;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
-li {
-	margin: 0px 0px 30px;
+.two-columns__paragraph_text {
+  margin: 0px 0px 30px;
 }
 
-li:last-of-type {
-	margin: 0px;
+.two-columns__paragraph_text:last-of-type {
+  margin: 0px;
 }
 
 .two-columns__span-accent {
-	line-height: 34px;
-	font-size: 24px;
-	font-weight: bold;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
 .digits {
   padding: 100px 0px;
 }
 
 .section-title {
-	width: 60%;
-	text-align: center;
-	margin: 0px auto 20px;
-	line-height: 1.15;
-	font-size: 60px;
-	font-weight: bold;
+  width: 60%;
+  text-align: center;
+  margin: 0px auto 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .section-subtitle {
-	width: 60%;
-	text-align: center;
-	margin: 0px auto;
-	line-height: 34px;
-	font-size: 24px;
-	font-weight: normal;
+  width: 60%;
+  text-align: center;
+  margin: 0px auto;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .table {
-	width: 1100px;
-	margin: 0px auto;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
+  width: 1100px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .table__cell {
-	width: 250px;
+  width: 250px;
   margin: 60px 0px 0px;
 }
 
 .table__heading {
-	line-height: 1.15;
-	font-size: 24px;
-	font-weight: bold;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .table__text {
-	margin: 20px 0px 0px 0px;
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: normal;
+  margin: 20px 0px 0px 0px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .feynman {
-	background-color: #f2f2f2;
-	position: relative;
-	height: 890px;
-	padding: 100px 0px 0px;
+  background-color: #f2f2f2;
+  position: relative;
+  height: 890px;
+  padding: 100px 0px 0px;
 }
 
 .feynman__title {
@@ -220,9 +219,9 @@ li:last-of-type {
   text-align: center;
   position: relative;
   margin: 0px auto;
-	line-height: 1.15;
-	font-size: 120px;
-	font-weight: bold;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
   z-index: 1;
 }
 
@@ -230,9 +229,9 @@ li:last-of-type {
   text-align: center;
   position: relative;
   margin: 70px auto 0px;
-	line-height: 51px;
-	font-size: 36px;
-	font-weight: normal;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
   z-index: 1;
 }
 
@@ -240,10 +239,10 @@ li:last-of-type {
   position: absolute;
   right: 48px;
   top: 50%;
-	line-height: 51px;
-	font-size: 36px;
-	font-weight: normal;
-	z-index: 1;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
 }
 
 .feynman__main-illustration {
@@ -255,29 +254,29 @@ li:last-of-type {
 }
 
 .kaufman {
-	position: relative;
-	overflow: hidden;
+  position: relative;
+  overflow: hidden;
   background-color: #1f1f1f;
   padding: 90px 0px;
 }
 
 .kaufman__triangle {
-	position: absolute;
-	width: 877px;
-	height: 877px;
-	right: -210px;
-	top: 0px;
-	z-index: 0;
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  top: 0px;
+  z-index: 0;
 }
 
 .section-title_theme_dark {
   color: white;
-	z-index: 1;
+  z-index: 1;
 }
 
 .section-subtitle_them_dark {
   color: white;
-	z-index: 1;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -285,62 +284,71 @@ li:last-of-type {
   width: 200px;
   color: white;
   margin: 80px 0px 0px;
-	z-index: 1;
+  z-index: 1;
 }
 
 .footer {
-	background-color: #1f1f1f;
-	padding: 60px 0px 40px;
-	position: relative;
+  background-color: #1f1f1f;
+  padding: 60px 0px 40px;
+  position: relative;
+  align-items: stretch;
+  min-height: 350px;
 }
 
 .footer__columns {
-	margin: 0px auto;
-	width: 90%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: stretch;
-	min-height: 350px;
+  margin: 0px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .footer__column_content-copyright {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+	align-items: stretch;
+  /* justify-content: space-between; */
+  flex-basis: 711px;
 }
 
 .logo_place_footer {
-	height: 35px;
+  height: 35px;
 }
 
 .footer__author {
-	margin: 18px 0px;
-	color: white;
-	line-height: 25px;
-	font-size: 18px;
-	font-weight: normal;
+  margin: 18px 0px;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-heading {
-	margin: 0px 0px 20px;
-	color: white;
-	line-height: 30px;
-	font-size: 18px;
-	font-weight: bold;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .footer__column-links {
-	margin: 0px 0px 16px;
-	display: flex;
-	flex-direction: column;
+  margin: 20px 0px 16px;
+  display: flex;
+  flex-direction: column;
+	justify-content: space-between;
 }
 
 .footer__column-link {
-	margin: 0px;
-	color: white;
-	line-height: 30px;
-	font-size: 18px;
-	font-weight: normal;
+  color: white;
+	position: relative;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+	padding: 0px 10px 0px 0px;
+	position: absolute;
+	height: 16px;
+	width: 16px;
 }
