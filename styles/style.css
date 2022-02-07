@@ -290,25 +290,22 @@ body {
 .footer {
   background-color: #1f1f1f;
   padding: 60px 0px 40px;
-  position: relative;
-  align-items: stretch;
-  min-height: 350px;
+	position: relative;
+  height: 350px;
 }
 
 .footer__columns {
   margin: 0px auto;
   width: 90%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: stretch;
+  block-size: 100%;
 }
 
 .footer__column_content-copyright {
   display: flex;
   flex-direction: column;
-	align-items: stretch;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   flex-basis: 711px;
 }
 
@@ -340,15 +337,15 @@ body {
 
 .footer__column-link {
   color: white;
-	position: relative;
+	display: flex;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
 }
 
 .footer__social-icon {
-	padding: 0px 10px 0px 0px;
-	position: absolute;
+	display: flex;
+	margin: auto 10px auto 0px;
 	height: 16px;
 	width: 16px;
 }
