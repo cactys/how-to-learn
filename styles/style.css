@@ -35,7 +35,11 @@ h6 {
 
 html,
 body {
+<<<<<<< HEAD
   font-family: 'Helvetica Neue', 'Arial', sans-serif; 
+=======
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+>>>>>>> e3fa0cb865c197be3bda83814de87380bcaaa616
   height: 100%;
   line-height: 1;
   font-size: 18px;
@@ -50,7 +54,10 @@ body {
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
+<<<<<<< HEAD
   
+=======
+>>>>>>> e3fa0cb865c197be3bda83814de87380bcaaa616
 }
 
 .header {
@@ -137,6 +144,7 @@ body {
 }
 
 .two-columns__paragraph {
+<<<<<<< HEAD
   width: 80%;
   min-width: 784px;
   flex-direction: column;
@@ -144,6 +152,15 @@ body {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+=======
+	width: 80%;
+	min-width: 784px;
+	flex-direction: column;
+  list-style: none;
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+>>>>>>> e3fa0cb865c197be3bda83814de87380bcaaa616
 }
 
 .two-columns__paragraph_text {
@@ -339,6 +356,7 @@ body {
 }
 
 .footer__column-link {
+<<<<<<< HEAD
   color: white;
 	position: relative;
   line-height: 30px;
@@ -351,4 +369,11 @@ body {
 	position: absolute;
 	height: 16px;
 	width: 16px;
+=======
+	margin: 0px;
+	color: white;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: normal;
+>>>>>>> e3fa0cb865c197be3bda83814de87380bcaaa616
 }
