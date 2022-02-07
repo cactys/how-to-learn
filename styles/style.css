@@ -356,7 +356,6 @@ body {
 }
 
 .footer__column-link {
-<<<<<<< HEAD
   color: white;
 	position: relative;
   line-height: 30px;
@@ -369,11 +368,4 @@ body {
 	position: absolute;
 	height: 16px;
 	width: 16px;
-=======
-	margin: 0px;
-	color: white;
-	line-height: 30px;
-	font-size: 18px;
-	font-weight: normal;
->>>>>>> e3fa0cb865c197be3bda83814de87380bcaaa616
 }
