@@ -8,8 +8,14 @@
 }
 
 a {
-	text-decoration: none;
-	color: #2f80ed;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
 }
 
 img {
@@ -29,11 +35,11 @@ h6 {
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
   height: 100%;
   line-height: 1;
-  font-size: 14px;
-  color: #252b42;
+  font-size: 18px;
+  color: #000000;
 }
 
 .page {
@@ -44,8 +50,6 @@ body {
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #000000;
 }
 
 .header {
