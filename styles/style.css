@@ -1,10 +1,45 @@
-*, h1 {
-	padding: 0px;
-	margin: 0px;
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
+
 a {
 	text-decoration: none;
 	color: #2f80ed;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  color: #252b42;
 }
 
 .page {
@@ -177,7 +212,7 @@ li:last-of-type {
 	background-color: #f2f2f2;
 	position: relative;
 	height: 890px;
-	padding: 100px 0px;
+	padding: 100px 0px 0px;
 }
 
 .feynman__title {
@@ -257,9 +292,6 @@ li:last-of-type {
 	background-color: #1f1f1f;
 	padding: 60px 0px 40px;
 	position: relative;
-	/* display: flex;
-	flex-direction: column;
-	justify-content: space-between; */
 }
 
 .footer__columns {
