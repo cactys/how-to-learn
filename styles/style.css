@@ -32,7 +32,7 @@ h6 {
 
 html,
 body {
-  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
   height: 100%;
   line-height: 1;
   font-size: 18px;
@@ -47,7 +47,6 @@ body {
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  
 }
 
 .header {
@@ -147,7 +146,7 @@ body {
   margin: 0px 0px 30px;
 }
 
-.two-columns__paragraph_text:last-of-type {
+.two-columns__paragraph_text:last-child {
   margin: 0px;
 }
 
