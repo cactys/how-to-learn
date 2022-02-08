@@ -9,9 +9,7 @@ a {
   color: #2f80ed;
 }
 
-ul,
-ol,
-li {
+ul, ol, li {
   list-style: none;
 }
 
@@ -19,20 +17,13 @@ img {
   vertical-align: top;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3 {
   font-weight: inherit;
   font-size: inherit;
   margin: 0;
 }
 
-html,
 body {
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
   height: 100%;
   line-height: 1;
   font-size: 18px;
@@ -47,6 +38,7 @@ body {
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 .header {
