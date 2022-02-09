@@ -9,7 +9,9 @@ a {
   color: #2f80ed;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
   list-style: none;
 }
 
@@ -17,7 +19,9 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: inherit;
   font-size: inherit;
   margin: 0;
@@ -38,7 +42,9 @@ body {
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .header {
@@ -278,7 +284,7 @@ body {
 .footer {
   background-color: #1f1f1f;
   padding: 60px 0px 40px;
-	position: relative;
+  position: relative;
   height: 350px;
 }
 
@@ -320,20 +326,20 @@ body {
   margin: 20px 0px 16px;
   display: flex;
   flex-direction: column;
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .footer__column-link {
   color: white;
-	display: flex;
+  display: flex;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
 }
 
 .footer__social-icon {
-	display: flex;
-	margin: auto 10px auto 0px;
-	height: 16px;
-	width: 16px;
+  display: flex;
+  margin: auto 10px auto 0px;
+  height: 16px;
+  width: 16px;
 }
