@@ -130,7 +130,7 @@ body {
   font-weight: normal;
 }
 
-.two-columns__paragraph {
+.two-columns__paragraphs {
   width: 80%;
   min-width: 784px;
   flex-direction: column;
@@ -140,7 +140,7 @@ body {
   font-weight: normal;
 }
 
-.two-columns__paragraph_text {
+.two-columns__paragraph {
   margin: 0px 0px 30px;
 }
 
