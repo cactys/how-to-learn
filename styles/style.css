@@ -134,13 +134,12 @@ body {
   width: 80%;
   min-width: 784px;
   flex-direction: column;
-  list-style: none;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 .two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
   margin: 0px 0px 30px;
 }
 
