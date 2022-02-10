@@ -1,24 +1,28 @@
+/* сблос настроек браузера на отступы
+   установить box-sizing: border-box
+	 запретить браузеру складывать размер элемента */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* убрать у ссылок декор
+   установить цвет по умолчанию */
 a {
   text-decoration: none;
   color: #2f80ed;
 }
 
+/* убрать у списков маркер */
 ul,
 ol,
 li {
   list-style: none;
 }
 
-img {
-  vertical-align: top;
-}
-
+/* Сброс параметров для заголовков
+   принимать наследование 'inherit' */
 h1,
 h2,
 h3 {
@@ -27,13 +31,15 @@ h3 {
   margin: 0;
 }
 
+/* Установка по умолчанию для всего блока в нутри BODY */
 body {
   height: 100%;
-  line-height: 1;
+  line-height: 34px;
   font-size: 18px;
   color: #000000;
 }
 
+/* *блок PAGE* */
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -47,6 +53,7 @@ body {
   overflow: hidden;
 }
 
+/* *блок HEADER* */
 .header {
   height: 100vh;
   min-height: 600px;
@@ -82,7 +89,6 @@ body {
 
 .header__subtitle {
   line-height: 25px;
-  font-size: 18px;
   font-weight: normal;
   width: 388px;
   position: absolute;
@@ -110,6 +116,7 @@ body {
   right: 0px;
 }
 
+/* *блок DESCRIPTION* */
 .description {
   padding: 100px 0px 0px;
   display: flex;
@@ -126,7 +133,6 @@ body {
   color: #2f80ed;
   width: 175px;
   line-height: 1.2;
-  font-size: 18px;
   font-weight: normal;
 }
 
@@ -137,7 +143,6 @@ body {
 }
 
 .two-columns__paragraph {
-  line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0px 0px 30px;
@@ -148,10 +153,11 @@ body {
 }
 
 .two-columns__span-accent {
-  line-height: 34px;
   font-size: 24px;
   font-weight: bold;
 }
+
+/* *блок DIGITS* */
 .digits {
   padding: 100px 0px;
 }
@@ -169,7 +175,6 @@ body {
   width: 60%;
   text-align: center;
   margin: 0px auto;
-  line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
@@ -196,10 +201,10 @@ body {
 .table__text {
   margin: 20px 0px 0px 0px;
   line-height: 1.2;
-  font-size: 18px;
   font-weight: normal;
 }
 
+/* *блок FAYNMAN* */
 .feynman {
   background-color: #f2f2f2;
   position: relative;
@@ -246,6 +251,7 @@ body {
   left: 0px;
 }
 
+/* *блок KAUFMAN* */
 .kaufman {
   position: relative;
   overflow: hidden;
@@ -280,6 +286,7 @@ body {
   z-index: 1;
 }
 
+/* *блок FOOTER* */
 .footer {
   background-color: #1f1f1f;
   padding: 60px 0px 40px;
@@ -310,14 +317,12 @@ body {
   margin: 18px 0px;
   color: white;
   line-height: 25px;
-  font-size: 18px;
   font-weight: normal;
 }
 
 .footer__column-heading {
   color: white;
   line-height: 30px;
-  font-size: 18px;
   font-weight: bold;
 }
 
@@ -332,7 +337,6 @@ body {
   color: white;
   display: flex;
   line-height: 30px;
-  font-size: 18px;
   font-weight: normal;
 }
 
