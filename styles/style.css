@@ -130,6 +130,9 @@
 /* *блок DIGITS* */
 .digits {
   padding: 100px 0px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .section-title {
@@ -242,6 +245,9 @@
   overflow: hidden;
   background-color: #1f1f1f;
   padding: 90px 0px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .kaufman__triangle {
