@@ -1,83 +1,19 @@
 /* *блок PAGE* */
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: "Helvetica Neue", "Arial", sans-serif;
-  min-height: 100%;
-  overflow: hidden;
-  color: #000000;
-}
+
 
 /* *блок HEADER* */
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-  background-color: #f2f2f2;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
-.logo {
-  width: 183px;
-  height: 32px;
-}
 
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 2;
-}
 
-.header__title {
-	/* рекомендация ревью - margin-left: 64px
-	!По заданию для смещения элемента вправо
-	!нужно использовать отступ, а не позиционирование.
-	!Свойства position и left нужно заменить на margin-left
-	в этом моменте использовал полный margin
-	что бы сбросить не нужный отступ */
-  margin: 0px 0px 0px 64px;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: bold;
-  width: 730px;
-  z-index: 2;
-}
 
-.header__subtitle {
-  margin: 0;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  width: 388px;
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
-  z-index: 2;
-}
 
-.header__link {
-  text-decoration: none;
-  color: #2f80ed;
-}
 
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  z-index: 1;
-}
+
+
+
+
+
+
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
@@ -305,9 +241,7 @@
   flex-basis: 711px;
 }
 
-.logo_place_footer {
-  height: 35px;
-}
+
 
 .footer__author {
   line-height: 25px;
