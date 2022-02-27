@@ -1,0 +1,6 @@
+.techniques {
+	padding: 100px 0px 0px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}

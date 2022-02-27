@@ -1,0 +1,9 @@
+.video__iframe {
+	padding: 0px;
+	margin: 0px 20px 0px 0px;
+	max-height: 316px;
+}
+
+.video__iframe:nth-child(2n+2) {
+	margin: 0;
+}
