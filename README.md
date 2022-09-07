@@ -6,8 +6,18 @@
 ___
 **Первая проектная работа. Обычный одностраничный лэндинг. Ничего лишнего!**
 
-- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-- iframe
-- flex
-- <a href="https://ru.bem.info/" target="_blank">БЭМ</a> •
+### Стэк:
++ ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
++ ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  - Flexbox
+  - Grid Layout
+  - Positioning
++ [Методология БЭМ](https://ru.bem.info/methodology/)
++ Фйловая структура Nested БЭМ
+---
+### 🔧 Инструкция:
+1. Скачайть или склонировать себе командой:
+```sh
+    git clone https://github.com/cactys/how-to-learn.git
+```
+2. Запустить <kbd>index.html</kbd>
